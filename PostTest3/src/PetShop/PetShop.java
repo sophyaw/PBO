@@ -85,15 +85,12 @@ class AksesorisHewan extends Barang {
         super(namaAksesoris, harga);
         this.jenisHewan = jenisHewan;
     }
-
     public String getJenisHewan() {
         return jenisHewan;
     }
-
     public void setJenisHewan(String jenisHewan) {
         this.jenisHewan = jenisHewan;
     }
-
     public String getJenisAksesoris() {
         return jenisAksesoris;
     }
